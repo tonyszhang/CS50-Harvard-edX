@@ -1,0 +1,12 @@
+1.  stdint.h is a header file that provides a set of new standard typedefs that specify exact-width integer types across all platforms
+2.  These exact-width types leave no ambiguity as to how many bits each variable of said type takes up in memory
+3.  BYTE, DWORD, LONG, WORD are 1, 4, 4, 2 bytes respectively 
+4.  Magic number: 0x42 0x4d in HEX, or BM in ASCII
+5.  bfSize is the size, in bytes, of the total bitmap file; biSize is the bytes required by the structure BITMAPINFOHEADER, so 40
+6.  If biHeight is negative, the bitmap is a top-down DIB and its origin is the upper-left corner
+7.  biBitCount specifies bits-per-pixel
+8.  If the input file doesn't exist; if the user lacks permission to write
+9.  Because we're only reading and storing 1 instance of the struct
+10. padding = 3
+11. Moves "cursor" in the file being read by a certain amount
+12. Move from current position in file
